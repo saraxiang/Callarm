@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/jessicaxiang/Documents/Callarm/node_modules/react-native/Libraries/Text/RCTShadowText.m \
+  /Users/jessicaxiang/Documents/Callarm/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAccessibilityManager.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/jessicaxiang/Documents/Callarm/node_modules/react-native/Libraries/Text/RCTShadowRawText.h \
+  /Users/jessicaxiang/Documents/Callarm/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/jessicaxiang/Documents/Callarm/node_modules/react-native/Libraries/Text/RCTTextView.h \
+  /Users/jessicaxiang/Documents/Callarm/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/jessicaxiang/Documents/Callarm/node_modules/react-native/Libraries/Text/RCTTextInput.h \
+  /Users/jessicaxiang/Documents/Callarm/node_modules/react-native/Libraries/Text/RCTBackedTextInputViewProtocol.h

@@ -14,10 +14,10 @@ class DatePickerExample extends React.Component {
   }
 
   onDateChange(date) {
-    this.props.handleDateChange(this.state.date.toLocaleDateString() + ' ' + this.state.date.toLocaleTimeString());
     this.setState({
       date: date,
     });
+    this.props.handleDateChange(date.toLocaleDateString() + ' ' + date.toLocaleTimeString());
   }
 
   onTimezoneChange(event) {
@@ -35,22 +35,8 @@ class DatePickerExample extends React.Component {
     // text input, but we don't have any pickers yet :(
     return (
       <View>
-        <WithLabel label="Value:">
-          <Text>{
-            this.state.date.toLocaleDateString() +
-            ' ' +
-            this.state.date.toLocaleTimeString()
-          }</Text>
-        </WithLabel>
-        <WithLabel label="Timezone:">
-          <TextInput
-            onChange={this.onTimezoneChange}
-            style={styles.textinput}
-            value={this.state.timeZoneOffsetInHours.toString()}
-          />
-          <Text> hours from UTC</Text>
-        </WithLabel>
         <DatePickerIOS
+          style={styles.datePicker}
           date={this.state.date}
           mode="datetime"
           timeZoneOffsetInMinutes={this.state.timeZoneOffsetInHours * 60}
@@ -116,18 +102,18 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Callarm</Text>
+        <Text style={styles.title}>Callarm</Text>
         <DatePickerExample 
           handleDateChange={this.setDate}
         />
         <Button
           onPress={this.addAlarm}
-          title="Set Alarm"
+          title="Add Alarm"
           color="#841584"
           accessibilityLabel="Set Alarm"
         />
-        <Text>Alarms Set</Text>
-        <Text>{this.state.alarms.toString()}</Text>
+        <Text style={styles.alarmsHeader}>Alarms Set</Text>
+        <Text style={styles.alarmList}>{this.state.alarms.toString()}</Text>
       </View>
     );
   }
@@ -139,6 +125,22 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  title: {
+    marginBottom: 30,
+    fontSize: 36,
+  },
+  datePicker: {
+    width: 350,
+  },
+  alarmsHeader: {
+    fontSize: 28,
+    marginTop: 20,
+    marginBottom: 20,
+  },
+  alarmList: {
+    fontSize: 24,
+    width: 260,
   },
   textinput: {
     height: 26,

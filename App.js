@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, TextInput, View, Button, Alert, DatePickerIOS } from 'react-native';
+import { StyleSheet, Text, TextInput, View, Button, Alert, DatePickerIOS, TabBarIOS } from 'react-native';
 
 class DatePickerExample extends React.Component {
 
@@ -31,8 +31,6 @@ class DatePickerExample extends React.Component {
   }
 
   render() {
-    // Ideally, the timezone input would be a picker rather than a
-    // text input, but we don't have any pickers yet :(
     return (
       <View>
         <DatePickerIOS
@@ -74,7 +72,7 @@ class Heading extends React.Component {
   }
 }
 
-export default class App extends React.Component {
+class AlarmPage extends React.Component {
 
   constructor(props) {
     super(props);
@@ -115,6 +113,54 @@ export default class App extends React.Component {
         <Text style={styles.alarmsHeader}>Alarms Set</Text>
         <Text style={styles.alarmList}>{this.state.alarms.toString()}</Text>
       </View>
+    );
+  }
+}
+
+class CallPage extends React.Component {
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <Text style={styles.title}>Callarm</Text>
+      </View>
+    );
+  }
+}
+
+export default class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedTab: 'setAlarm',
+    };
+  }
+
+  render() {
+    return (
+      <TabBarIOS selectedTab={this.state.selectedTab}>
+        <TabBarIOS.Item
+          selected={this.state.selectedTab === 'setAlarm'}
+          systemIcon="favorites"
+          onPress={() => {
+              this.setState({
+                  selectedTab: 'setAlarm',
+              });
+          }}>
+          <AlarmPage/>
+        </TabBarIOS.Item>
+        <TabBarIOS.Item
+          selected={this.state.selectedTab === 'call'}
+          systemIcon="contacts"
+          onPress={() => {
+                this.setState({
+                    selectedTab: 'call',
+                });
+          }}>
+          <CallPage/>
+        </TabBarIOS.Item>
+      </TabBarIOS>
     );
   }
 }

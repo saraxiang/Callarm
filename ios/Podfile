@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+pod 'Firebase/Core'
+
+target 'Callarm' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Callarm
+
+  target 'Callarm-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CallarmTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'Callarm-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Callarm-tvOS
+
+  target 'Callarm-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

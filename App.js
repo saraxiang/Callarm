@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, TextInput, View, Button, Alert, DatePickerIOS, TabBarIOS } from 'react-native';
+import { StyleSheet, Text, TextInput, View, Button, Alert, DatePickerIOS, TabBarIOS, } from 'react-native';
 
 class DatePickerExample extends React.Component {
 
